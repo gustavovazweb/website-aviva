@@ -1,0 +1,81 @@
+/*Config. Gerais*/
+html,body,#home{height: 100%;overflow-x: hidden;}
+body{background: url(../img/fundo.jpg);background-attachment: fixed;
+font-family: Helvetica,Arial,sans-serif;}
+h1{font-weight: 900; margin-bottom: 50px; color: white;
+letter-spacing: -0.05em;}
+h2{font-size: 3em;font-weight: 700;letter-spacing: -0.04em;}
+h3{font-size: 2em;font-weight: 700;letter-spacing: -0.04em;}
+.margin-padrao{margin: 30px 0;}
+h5{color: #ff4169;font-size: 1.5rem;font-weight: 700;
+text-transform: uppercase;}
+.colorh5{color: #111;font-size: 1.5rem;font-weight: 700;
+text-transform: uppercase;}
+.close:hover{border: none;outline: none;}
+
+
+/*Config. clases, objetos e seções*/
+.navbar-transparent{background: rgba(0,0,0,0.6);padding: 15px 0;}
+.navbar-light .navbar-nav .nav-link{color: white;}
+.navbar-light .navbar-nav .nav-link:hover{color: #ff4169;}
+.navbar-light .navbar-nav button{color: white;background: transparent;
+border: none;outline: none;}
+.navbar-light .navbar-nav button:hover{color: #ff4169;border: none;
+outline: none;}
+.text-form{color: #676a6c;font-size: 1rem;text-transform: uppercase;
+font-weight: 700;}
+.divisor{width: 1px;background: white;margin: 12px 15px;}
+.style1{text-align: center;}
+.btn-padrao{color: white;text-transform: uppercase;padding: 10px 15px;
+border: 3px solid white;border-radius: 10px;transition: background 0.5s,
+color 0.5s;font-weight: 900;}
+.btn1{background: #ff4169;border-color: #ff4169;}
+.btn1:hover{background: #cb3252;color: white;border-color: #cb3252;}
+.btn2{background: transparent;color: white;}
+.btn2:hover{color: #ff4169;}
+.btn3{background: #111;border-color: #111;color: white;}
+.btn3:hover{background: #333;color: white;border-color: #333;}
+.btn4{background: #111;border-color: #111;color: white;}
+.btn4:hover{background: #333;color: white;border-color: #333;}
+#servicos{background: white;}
+#servicos h2, h3{color: #ff4169;}
+#servicos p{color: black;font-size: 1.2rem;}
+#recursos h2, p{color: white;}
+#recursos p{font-size: 1.2rem;}
+.rotacao{transform: rotate(30deg);padding-left: 80px;}
+#rodape{background: black; padding: 50px 0 20px 0; position: relative;}
+#rodape h4{color: #919496;text-transform: uppercase;font-size: 1rem;}
+#rodape .navbar-nav a{color: white;font-size: 1rem;}
+#rodape .navbar-nav a:hover{color: #ff4169;text-decoration: none;}
+#rodape ul{list-style: none;}
+#rodape ul li{float: right;margin: 0 10px;}
+#rodape ul li i{color: white;}
+#rodape ul li i:hover{color: #ff4169;}
+
+/*Break Points*/
+@media (max-width: 575.98px) {
+.container{width: 90%;}
+.btn-padrao{margin: 10px 15px;}
+.margin-padrao{margin: 15px 0;}
+#rodape img{margin: 15px 0;}
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+h1{font-size: 3em;}
+.container{width: 90%;}
+.btn-padrao{margin: 10px 15px;}
+.margin-padrao{margin: 15px 0;}
+#rodape img{margin: 15px 0;}
+ }
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+h1{font-size: 4em;} 
+ }
+
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+h1{font-size: 5em;} 
+ }
+
+@media (min-width: 1200px) { 
+h1{font-size: 6em;} 
+ }
